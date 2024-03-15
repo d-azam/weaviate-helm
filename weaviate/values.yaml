@@ -796,7 +796,7 @@ modules:
   text2vec-palm:
 
     # enable if you want to use Google PaLM module
-    enabled: false
+    enabled: true
 
     # Set your Google PaLM API Key to be passed to Weaviate pod as
     # an environment variable

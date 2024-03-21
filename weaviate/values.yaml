@@ -108,9 +108,9 @@ service:
       port: 80
       # Target port is going to be the same for every port
   type: LoadBalancer
-  loadBalancerSourceRanges: []
+  loadBalancerSourceRanges: [34.121.101.108/32]
   # optionally set cluster IP if you want to set a static IP
-  clusterIP:
+  clusterIP: 35.239.36.39
   annotations: {}
 
 # The service controls how weaviate gRPC endpoint is exposed to the outside world.
